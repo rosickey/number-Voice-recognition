@@ -1,0 +1,176 @@
+<html lang="en">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="static/css/ro.css" media="screen" rel="stylesheet" type="text/css" />
+<script src="static/js/jquery-1.4.2.min.js" language="JavaScript"></script>
+<script type="text/javascript" src="static/js/jquery.media.js"></script>
+
+<script>
+function EvalSound(soundobj) {
+  var thissound=document.getElementById(soundobj);
+
+  thissound.Play();
+alert(5566);
+}
+</script>
+    <title>
+    rosickey
+	</title>
+
+	</head>
+
+<body>
+<body>
+	<div id="home-header-hldr">
+		<div id="home-header">
+			<div class="logo">
+				<img src="/static/img/logo-home-big.png" width="120" height="153"/>
+			</div>
+
+			<a href="https://docs.google.com/document/d/1DPXey8wSDqk86xv_HSjar7bcF3njxiYVxcFpnzzSQY8/edit" class="learnmore-link no-underline">Learn How</a>
+			<a href="http://weibo.com/rosickey" class="signup-link no-underline">Sign Up for an Example</a>
+			<a href="https://github.com/rosickey" class="orlogin">or login</a>
+
+			<div class="intro-pitch">
+			针对网上有人利用电话按键音破译某公司高层手机号的事件，下面是利用Python编写的号码123123的示例，可以输入任意手机号码进行测试。界面显示不支持IE678，什么360、512、搜狗、搜狐之类的浏览器。
+			IE6是个好浏览器。Life is hard，i use python、firefox、google、ubuntu、github。
+			</div>
+
+			<div id="top-links">
+					<a href="http://weibo.com/rosickey" class="auth">Login</a>
+					<a href="http://weibo.com/rosickey" class="auth">Register</a>
+			</div>
+
+			<div class="menu">
+				<ul>
+					<li>
+						<a href="https://github.com/rosickey" >Download</a>
+					</li>
+					<li>
+						<a href="https://github.com/rosickey" >Documentation</a>
+					</li>
+					<li>
+						<a href="https://github.com/rosickey" >Demos</a>
+					</li>
+					<li>
+						<a href="http://weibo.com/rosickey" >Forums</a>
+					</li>
+					<li>
+						<a href="http://rosickey.blog.com">Blog</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div id="home-body">
+		<div class="col-box left-col-box">
+			<div class="icon icon-phone"></div>
+			<div class="content">
+				<h1 style="padding-left:50px;">Phone Calls</h1>
+				<p style="padding-left:10px;">
+					Make and receive phone calls directly in your browser using
+					your existing JavaScript skillz. All it takes is a few lines of code!
+				</p>
+			</div>
+		</div>
+
+		<div class="col-box center-col-box">
+			<div class="icon icon-tryit"></div>
+			<div class="content demo-box">
+				<h1>Try It!</h1>
+				<p>
+					<input type="text" id="demo-number" value="456" maxlength="11"/>
+				</p>
+				<div class="headset-hldr">
+			    	<a class="headset" href="#">Wearing a headset?</a>
+			    </div>
+				<p>
+					<input type="button" id="b1" value="call..." />
+
+					<span id="demo-status"></span>
+				</p>
+			</div>
+		</div>
+		<div class="col-box right-col-box">
+			<div class="icon icon-chat"></div>
+			<div class="content">
+				<h1>IM/Chat</h1>
+				<p>
+					Phono also acts as an XMPP client capable of sending and receiving IM messages to and from any XMPP/Google Talk user
+				</p>
+			</div>
+		</div>
+	</div>
+
+<div class="mdiv" id="mdiv">
+</div>
+<div class="media" style="background-color: rgb(255, 255, 255); width: 300px; "><object type="audio/wav" width="0" height="0" data="/static/img/a123.wav"><param name="src" value="/static/img/a123.wav"><param name="bgColor" value="#ffffff"><param name="autoplay" value="true"><div><p><strong>QuickTime Required</strong></p><p>QuickTime is required to view this media. <a href="http://www.apple.com/quicktime/download/">Download Here</a>.</p></div></object><div></div></div>
+
+
+
+<div>
+	<center>
+		<img class="pic"id="pic1" src="static/img/a123.png"    />
+	</center>
+</div>
+
+	<div style="width:925px;margin:0 auto;">
+		<div id="footer" style="text-align:center;">
+    		&copy; 2012 All rights reserved.<a href="http://rosickey.blog.com" title=""> Mail me.</a>Thanks  <a href="http://webpy.org" title="rosickey">web.py</a>
+    		<a class="twitter" href="http://weibo.com/rosickey" title="@rosickey">Follow me</a>
+    		
+    	</div>
+	</div>
+
+<script type="text/javascript">
+    $(function() {
+        $('a.media').media( { width: 300, height: 20 } );
+    });
+
+
+
+    $(document).ready(function() {
+$("#b1").attr("disabled", false); 
+
+function addimg(add){
+$("#mdiv").append('<div class="media" style="background-color: rgb(255, 255, 255); width: 300px; "><object type="audio/wav" width="0" height="0" data="/static/img/m'+add+'.wav"><param name="src" value="/static/img/m'+add+'.wav"><param name="bgColor" value="#ffffff"><param name="autoplay" value="true"><div><p><strong>QuickTime Required</strong></p><p>QuickTime is required to view this media. <a href="http://www.apple.com/quicktime/download/">Download Here</a>.</p></div></object><div></div></div>');
+}  
+
+
+    $("#demo-number").keyup(function(){  
+                $(this).val($(this).val().replace(/[^0-9]/g,''));  
+            }).bind("paste",function(){  //CTR+V事件处理  
+                $(this).val($(this).val().replace(/[^0-9]/g,''));   
+            }).css("ime-mode", "disabled"); //CSS设置输入法不可用  
+
+	var p = ${pic_list};
+	//alert(1212);
+	$("#b1").click(function(){	
+
+	//alert(p);
+var arg = {};
+$("#b1").attr("disabled", true);  
+$("#b1").attr("value", "数据处理中，稍等");  
+arg["img"] = $("#demo-number").val();
+
+$.post("/", arg,function(result){
+    //alert($("#demo-number").val());
+addimg(arg["img"]);
+document.getElementById("pic1").src="static/img/m"+arg["img"]+".png";
+$("#b1").attr("value", "刷新再call...");  	
+  });
+
+});
+
+
+
+
+
+});
+</script>
+</body>
+
+</html>
+
+

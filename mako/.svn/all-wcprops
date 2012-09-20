@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/bigyma/!svn/ver/337/2/mako
+END
+parsetree.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/bigyma/!svn/ver/337/2/mako/parsetree.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/bigyma/!svn/ver/337/2/mako/__init__.py
+END
+cache.py
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/bigyma/!svn/ver/337/2/mako/cache.py
+END
+codegen.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/bigyma/!svn/ver/337/2/mako/codegen.py
+END
+pyparser.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/bigyma/!svn/ver/337/2/mako/pyparser.py
+END
+filters.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/bigyma/!svn/ver/337/2/mako/filters.py
+END
+lookup.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/bigyma/!svn/ver/337/2/mako/lookup.py
+END
+template.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/bigyma/!svn/ver/337/2/mako/template.py
+END
+util.py
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/bigyma/!svn/ver/337/2/mako/util.py
+END
+lexer.py
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/bigyma/!svn/ver/337/2/mako/lexer.py
+END
+exceptions.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/bigyma/!svn/ver/337/2/mako/exceptions.py
+END
+pygen.py
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/bigyma/!svn/ver/337/2/mako/pygen.py
+END
+runtime.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/bigyma/!svn/ver/337/2/mako/runtime.py
+END
+_ast_util.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/bigyma/!svn/ver/337/2/mako/_ast_util.py
+END
+1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/bigyma/!svn/ver/337/2/mako/1.txt
+END
+ast.py
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/bigyma/!svn/ver/337/2/mako/ast.py
+END
